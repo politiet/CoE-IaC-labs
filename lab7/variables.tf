@@ -15,3 +15,9 @@ variable "tags" {
     description = "Tags for your resource group. Enter as key/value pair"
     type = map(string)
 }
+
+variable "vmpassword" {
+    description = "Enter password for your VM"
+    type = string
+    sensitive = true
+}
