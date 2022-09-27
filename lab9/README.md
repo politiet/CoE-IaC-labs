@@ -2,6 +2,7 @@
 
 1. Create a new seperate local folder for this project with the structure:
 
+```
 |-- myproject
 |   |-- main.tf
 |   |-- modules
@@ -12,6 +13,7 @@
 |   |-- output.tf
 |   |-- terraform.tfvars
 |   |-- variables.tf
+```
 
 2. The module should be able to create a resource group for a given list of rg_names and create a vnet for each of the resource groups as well
 
